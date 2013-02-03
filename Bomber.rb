@@ -14,6 +14,7 @@ require 'level'
 
 class Game < Chingu::Window
   def setup
+  	@background_image = Gosu::Image.new(self,"./gfx/grassland.jpeg",true)
     transitional_game_state(Chingu::GameStates::FadeTo, :speed => 5)
     push_game_state(Level)
   end
