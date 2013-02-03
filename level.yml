@@ -1,0 +1,74 @@
+---
+- Bomberman:
+    :x: 400
+    :y: 300
+    :angle: 90
+    :zorder: 2
+    :factor_x: 1.0
+    :factor_y: 1.0
+    :alpha: 255
+- BoxTiny:
+    :x: 649.2181093331124
+    :y: 274.07171369415624
+    :angle: 0
+    :zorder: 3
+    :factor_x: 1.0
+    :factor_y: 1.0
+    :alpha: 255
+- BoxTiny:
+    :x: 361.8275829432588
+    :y: 175.53278270569172
+    :angle: 0
+    :zorder: 3
+    :factor_x: 1.0
+    :factor_y: 1.0
+    :alpha: 255
+- BoxTiny:
+    :x: 212.7575006398666
+    :y: 125.1559965184407
+    :angle: 0
+    :zorder: 3
+    :factor_x: 1.0
+    :factor_y: 1.0
+    :alpha: 255
+- BoxTiny:
+    :x: 320
+    :y: 55
+    :angle: 0
+    :zorder: 3
+    :factor_x: 1.0
+    :factor_y: 1.0
+    :alpha: 255
+- BoxTiny:
+    :x: 77
+    :y: 400
+    :angle: 0
+    :zorder: 3
+    :factor_x: 1.0
+    :factor_y: 1.0
+    :alpha: 255
+- BoxTiny:
+    :x: 300
+    :y: 300
+    :angle: 0
+    :zorder: 3
+    :factor_x: 1.0
+    :factor_y: 1.0
+    :alpha: 255
+- BoxTiny:
+    :x: 123
+    :y: 321
+    :angle: 0
+    :zorder: 3
+    :factor_x: 1.0
+    :factor_y: 1.0
+    :alpha: 255
+- BoxTiny:
+    :x: 111
+    :y: 333
+    :angle: 0
+    :zorder: 3
+    :factor_x: 1.0
+    :factor_y: 1.0
+    :alpha: 255
+
