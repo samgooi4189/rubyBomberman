@@ -51,7 +51,6 @@ class Bomberman < Chingu::GameObject
 
   def drop_bomb
     Bomb.create 0 => angle, :scale => scale, :x => x, :y => y, :velocity => velocity
-    Gosu::Sound["blaster.wav"].play
   end
   
 end

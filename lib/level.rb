@@ -14,6 +14,7 @@ class Level < Chingu::GameState
     @score = 0
     @score_text = Chingu::Text.create(:x => 1, :y => 1, :size => 20)
     @lives_text = Chingu::Text.create(:x => 200, :y => 1, :size => 20)
+    @instruction_text = Chingu::Text.create(:x => 200, :y =>550, :size => 20)
 	@lock = 0
     load_game_objects
   end
@@ -42,7 +43,8 @@ class Level < Chingu::GameState
 			player.x = rand * $window.width
 			player.y = rand * $window.height
       	else
-			# TODO this might happen conccurently? 3 collisions in 1 frame?
+			@lives = 3
+			@score = 0
 			push_game_state(Chingu::GameStates::Pause)
       	end
       end
@@ -64,5 +66,6 @@ class Level < Chingu::GameState
 
     @score_text.text = "score: #{@score}"
     @lives_text.text = "life: #{@lives}"
+    @instruction_text.text = "Press <space> to drop bomb ~"
   end
 end

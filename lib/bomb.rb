@@ -12,6 +12,7 @@ class Bomb < Chingu::GameObject
   def initialize(options={})
     super options.merge(:image => Gosu::Image["bomb.png"])
     after(3000) { 	Flare.create rand * 359 => :angle , :scale => 1.0, :x => x, :y => y, :velocity => flare_velocity(10);
+    Gosu::Sound["blaster.wav"].play;
     self.destroy }
     self.zorder = 1
   end
